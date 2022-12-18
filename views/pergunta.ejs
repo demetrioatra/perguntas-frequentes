@@ -16,17 +16,17 @@
                 <h3 class="card-title">Faça sua Pergunta</h3>
             </div>
             <div class="card-body">
-                <form action="">
+                <form method="post" action="/salvar">
                     <div class="form-group">
                         <label for="pergunta">Pergunta</label>
                         <input class="form-control"
+                            name="titulo"
                             type="text"
                             placeholder="Escreva sua pergunta">
                         <br>
                         <label for="descricao">Descrição</label>
-                        <textarea class="form-control"
-                            name="type"
-                            id="textarea"
+                        <textarea class="form-control" id="textarea"
+                            name="descricao"
                             cols="30"
                             rows="10"
                             placeholder="Descrição da pergunta"></textarea>
